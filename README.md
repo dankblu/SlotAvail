@@ -1,4 +1,4 @@
-# SlotAvail
+# Slot Finding Program
 
 So this program is pretty simple, it notifies you if a slot opens up in your district for vaccination slot for the next 7 days. 
 When you run the program it will ask for district ID and Date, you get get the District ID by that .txt file and put your current date in the format of DD-MM-YYYY
