@@ -34,7 +34,7 @@ def submit():
             names=r.json()
             for i in names["centers"]:
                 for x in i["sessions"]:
-                    if x["min_age_limit"] >17 and x["min_age_limit"]<45 and x["available_capacity"]>0:
+                    if x["min_age_limit"] >17 and x["min_age_limit"]<45 and x["available_capacity_dose1"]>0:
                         winsound.PlaySound("SystemExit", winsound.SND_ALIAS)
                         print(i["name"],x["min_age_limit"],x["available_capacity"],x["date"])
         except:
